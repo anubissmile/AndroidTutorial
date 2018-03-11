@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
                  * Call Intent object
                  */
                 Intent intent = new Intent(MainActivity.this, ResumeActivity.class);
+                Bundle bd = new Bundle(); // New bundle class
+                bd.putString("NAME", "Wesarut Khm"); // Put the values.
+                intent.putExtras(bd); // Put bundle in the intent object.
                 startActivity(intent); //Load new Activity
             }
         });
@@ -63,8 +66,10 @@ public class MainActivity extends AppCompatActivity {
                  * Call Intent object.
                  */
                 Intent intent = new Intent(MainActivity.this, AddressActivity.class);
+                Bundle bd = new Bundle(); // New bundle class
+                bd.putString("ADDRESS", "SINGHABURI"); // Put the values.
+                intent.putExtras(bd); // Put bundle in the intent object.
                 startActivity(intent); // Load new Activity.
-                finish(); // Close the current activity.
             }
         });
     }

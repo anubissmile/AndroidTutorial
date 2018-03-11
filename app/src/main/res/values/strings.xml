@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Intent Tuturial</string>
+    <string name="app_name">Intent With Passing Bundle Tuturial</string>
 
 
     <string name="label_address">Address</string>
