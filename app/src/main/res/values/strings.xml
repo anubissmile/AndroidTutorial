@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AndroidTuturial</string>
+    <string name="app_name">Intent Tuturial</string>
+
+
+    <string name="label_address">Address</string>
+    <string name="address_description">This is Address.</string>
+    <string name="label_resume">Resume</string>
+    <string name="resume_description">This is Resume.</string>
 </resources>
